@@ -1,6 +1,9 @@
 Mejoras implementadas segun el documento ejemplo:
+
 1.- Mejoras en el Formulario de Registro
+
 Implementar validaciones para todos los campos:
+
  Email válido (formato correcto)
  Contraseña (mínimo 8 caracteres)
  Debe contener al menos:
