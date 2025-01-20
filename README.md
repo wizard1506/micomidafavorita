@@ -16,7 +16,7 @@ Implementar validaciones para todos los campos:
  Mostrar mensajes de error específicos para cada validación
  No permitir el envío del formulario si hay errores
  
-//******************codigo********************************//
+//------------------------------------------------//
 
 
 const validatePassword = (password) => {
@@ -39,7 +39,7 @@ minúscula, un número y un carácter especial';
  return errors;
  };
 
- //******************codigo********************************//
+ //------------------------------------------------//
 
 
  2. Mejoras en el Formulario de Login
@@ -50,7 +50,7 @@ minúscula, un número y un carácter especial';
  Deshabilitar el botón de login mientras los campos sean inválidos
 
  
- //******************codigo********************************//
+//------------------------------------------------//
 
 
 
@@ -62,7 +62,7 @@ minúscula, un número y un carácter especial';
 
 
  
- //******************codigo********************************//
+ //------------------------------------------------//
 
 
 
@@ -74,7 +74,7 @@ minúscula, un número y un carácter especial';
      Carga de datos del perfil
      Actualización de datos del perfil
 
-  //******************codigo********************************//
+//------------------------------------------------//
 
   
   const [isLoading, setIsLoading] = useState(false);
@@ -93,7 +93,7 @@ minúscula, un número y un carácter especial';
    setIsLoading(false);
 
    
-  //******************codigo********************************//
+//------------------------------------------------//
    
 
 
