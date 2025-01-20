@@ -14,6 +14,8 @@ Implementar validaciones para todos los campos:
  No permitir el envío del formulario si hay errores
  
 //******************codigo********************************//
+
+
 const validatePassword = (password) => {
  const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*])[A-Za-z\d!@#$%^&*]
  {8,}$/;
@@ -36,14 +38,18 @@ minúscula, un número y un carácter especial';
 
  //******************codigo********************************//
 
+
  2. Mejoras en el Formulario de Login
 
  Validar formato de email
  Validar que la contraseña no esté vacía
  Mostrar mensajes de error específicos
  Deshabilitar el botón de login mientras los campos sean inválidos
+
  
  //******************codigo********************************//
+
+
 
  const validateLoginForm = () => {
  const isEmailValid = /\S+@\S+\.\S+/.test(email);
@@ -51,6 +57,8 @@ minúscula, un número y un carácter especial';
  return isEmailValid && isPasswordValid;
  };
  //******************codigo********************************//
+
+
 
 
   3. Implementación de Loading States
@@ -61,6 +69,8 @@ minúscula, un número y un carácter especial';
      Actualización de datos del perfil
 
   //******************codigo********************************//
+
+  
   const [isLoading, setIsLoading] = useState(false);
    const handleLogin = async () => {
    setIsLoading(true);
@@ -75,6 +85,8 @@ minúscula, un número y un carácter especial';
    };
    finally {
    setIsLoading(false);
+
+   
   //******************codigo********************************//
    
 
