@@ -59,6 +59,9 @@ minúscula, un número y un carácter especial';
  const isPasswordValid = password.length > 0;
  return isEmailValid && isPasswordValid;
  };
+
+
+ 
  //******************codigo********************************//
 
 
